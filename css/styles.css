@@ -1,0 +1,261 @@
+:root{
+  --dark-accent-color: #2E2F42;
+  --main-text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --white-background-color: #fff;
+  --light-color: #F4F4FD;
+  --pressed-state-color: #404BBF;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--white-background-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} 
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+
+/*---------TITLE PAGE--------*/
+
+/*---------HEADER--------*/
+
+.header-logo {
+  color: var(--dark-accent-color);
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-accent {
+  color: var(--primary-brand-color);
+}
+
+.header-menu-link {
+  color: var(--dark-accent-color);
+  font-weight: 500;
+  line-height: 0.15;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link {
+  color: var(--main-text-color);
+  line-height: 0.15;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--primary-brand-color);
+}
+
+/*---------HERO--------*/
+
+.hero {
+  background-color: var(--dark-accent-color);
+}
+.hero-title {
+  color: var(--white-background-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 3.75;
+  letter-spacing: 0.07em;
+}
+
+.hero-btn {
+  color: var(--white-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 0.15;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-brand-color);
+  cursor: pointer;
+}
+
+/*---------ADVANTAGES--------*/
+
+.advantages {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+
+.advantages-subtitle {
+  color: var(--dark-accent-color);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 0.12;
+letter-spacing: 0.02em;
+}
+.advantages-item-text {
+  color: var(--main-text-color);
+font-style: normal;
+line-height: 0.15; 
+letter-spacing: 0.02em;
+}
+
+/*---------PRODUCTS--------*/
+
+.products {
+}
+.products-title {
+  color: var(--dark-accent-color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.products-list {
+}
+.list {
+}
+.products-item {
+}
+.products-img {
+}
+
+/*---------TEAM--------*/
+
+.team {
+  background-color: var(--light-color);
+}
+.team-title {
+  color: var(--dark-accent-color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-sudtitle {
+  color: var(--dark-accent-color);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 0.12; 
+letter-spacing: 0.02em;
+}
+.team-text {
+  color: var(--main-text-color);
+  text-align: center;
+  font-style: normal;
+  line-height: 0.15; 
+  letter-spacing: 0.02em;
+}
+
+/*---------FOOTER--------*/
+
+.footer{
+  background-color: var(--dark-accent-color);
+}
+
+.footer-logo{
+  color: var(--light-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.31; 
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-accent{
+  color: var(--primary-brand-color);
+}
+
+.footer-text{
+color: var(--light-color);
+font-style: normal;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+
+
+
+/*---------POTRFOLIO PAGE--------*/
+
+/*---------FILTERS--------*/
+.filters-list {
+}
+.list {
+}
+.filters-item {
+}
+.filters-btn {
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+text-align: center;
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus{
+  color: var(--white-background-color);
+  background-color: var(--primary-brand-color);
+}
+
+/*---------PORTFOLIO--------*/
+
+
+.portfolio-subtitle{
+  color: var(--dark-accent-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text{
+  color: var(--main-text-color);
+font-style: normal;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
