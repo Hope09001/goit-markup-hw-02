@@ -71,7 +71,7 @@ body {
 .header-menu-link:focus,
 .header-address-link:hover,
 .header-address-link:focus {
-  color: var(--primary-brand-color);
+  color: var(--pressed-state-color);
 }
 
 /*---------HERO--------*/
@@ -255,7 +255,6 @@ cursor: pointer;
 
 .portfolio-text{
   color: var(--main-text-color);
-font-style: normal;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
